@@ -159,3 +159,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SetupWizard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true
+
+# include definitions for SDCLANG
+include device/qcom/common/sdclang/sdclang.mk
