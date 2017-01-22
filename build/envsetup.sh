@@ -15,7 +15,7 @@ function brunch()
 {
     breakfast $*
     if [ $? -eq 0 ]; then
-        time mka otapackage
+        time mka bacon
     else
         echo "No such item in brunch menu. Try 'breakfast'"
         return 1
@@ -50,7 +50,7 @@ function breakfast()
             if [ -z "$variant" ]; then
                 variant="userdebug"
             fi
-            lunch aosp_$target-$variant
+            lunch lemon_$target-$variant
         fi
     fi
     return $?
