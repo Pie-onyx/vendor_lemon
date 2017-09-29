@@ -162,7 +162,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Include SDCLANG definitions if it is requested and available
 ifeq ($(HOST_OS),linux)
-    ifneq ($(wildcard vendor/qcom/sdclang-3.8/),)
+    ifneq ($(wildcard vendor/qcom/sdclang-4.0/),)
         include vendor/lemon/sdclang/sdclang.mk
     endif
 endif
