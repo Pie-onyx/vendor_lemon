@@ -31,6 +31,12 @@ PRODUCT_PACKAGES += \
     fsck.exfat \
     mkfs.exfat
 
+# NTFS support
+PRODUCT_PACKAGES += \
+    mount.ntfs \
+    fsck.ntfs \
+    mkfs.ntfs
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
