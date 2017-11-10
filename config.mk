@@ -48,6 +48,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
 
+# Fonts
+PRODUCT_COPY_FILES += \
+    vendor/aosp/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/aosp/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/aosp/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/aosp/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/aosp/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/aosp/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+
 # World APN list
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
