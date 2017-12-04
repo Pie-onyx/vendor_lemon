@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
 
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
