@@ -21,6 +21,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# mkshrc
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/etc/mkshrc:system/etc/mkshrc
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
