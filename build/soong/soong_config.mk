@@ -9,6 +9,7 @@ $(call add_json_bool, Needs_text_relocations, $(filter true,$(TARGET_NEEDS_PLATF
 $(call add_json_str_omitempty, Target_process_sdk_version_override, $(TARGET_PROCESS_SDK_VERSION_OVERRIDE))
 $(call add_json_str_omitempty, Target_shim_libs, $(TARGET_LD_SHIM_LIBS))
 $(call add_json_bool, Target_use_sdclang, $(filter true,$(if $(strip $(TARGET_USE_SDCLANG)),true,false)))
+$(call add_json_bool, Uses_qcom_bsp_legacy, $(filter true,$(if $(strip $(TARGET_USES_QCOM_BSP_LEGACY)),true,false)))
 
 # This causes the build system to strip out the last comma in our nested struct, to keep the JSON valid.
 _contents := $(_contents)__SV_END

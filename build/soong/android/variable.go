@@ -15,6 +15,9 @@ type Product_variables struct {
 	Target_shim_libs struct {
 		Cppflags []string
 	}
+	Uses_qcom_bsp_legacy struct {
+		Cppflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -24,4 +27,5 @@ type ProductVariables struct {
 	Target_process_sdk_version_override *string `json:",omitempty"`
 	Target_shim_libs  *string `json:",omitempty"`
 	Target_use_sdclang  *bool `json:",omitempty"`
+	Uses_qcom_bsp_legacy  *bool `json:",omitempty"`
 }
