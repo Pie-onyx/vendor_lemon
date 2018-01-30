@@ -9,6 +9,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
 
+# Init scripts
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
+
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
