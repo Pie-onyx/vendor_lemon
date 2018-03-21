@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
     <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="android.ext.services">
+        <permission name="android.permission.PROVIDE_RESOLVER_RANKER_SERVICE"/>
+    </privapp-permissions>
+
     <privapp-permissions package="com.android.apps.tag">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
@@ -21,6 +25,10 @@
 
     <privapp-permissions package="org.lineageos.eleven">
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.systemui">
+        <permission name="com.android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"/>
     </privapp-permissions>
 
     <privapp-permissions package="org.lineageos.updater">
