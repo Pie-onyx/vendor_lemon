@@ -111,7 +111,8 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    vendor/lemon/prebuilt/etc/permissions/privapp-permissions-elgoog.xml:system/etc/permissions/privapp-permissions-elgoog.xml
+    vendor/lemon/prebuilt/etc/permissions/privapp-permissions-elgoog.xml:system/etc/permissions/privapp-permissions-elgoog.xml \
+    vendor/lemon/prebuilt/etc/permissions/privapp-permissions-lemon.xml:system/etc/permissions/privapp-permissions-lemon.xml
 
 # mkshrc
 PRODUCT_COPY_FILES += \
