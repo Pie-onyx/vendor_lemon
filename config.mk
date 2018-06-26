@@ -101,4 +101,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+# SetupWizard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.setupwizard.rotation_locked=true
+
 $(call inherit-product-if-exists, vendor/aosp/prebuilt/prebuilt.mk)
