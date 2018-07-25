@@ -65,16 +65,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/etc/mkshrc:system/etc/mkshrc
 
-# exFAT tools
+# Filesystems tools
 PRODUCT_PACKAGES += \
     fsck.exfat \
-    mkfs.exfat
-
-# NTFS support
-PRODUCT_PACKAGES += \
-    mount.ntfs \
     fsck.ntfs \
-    mkfs.ntfs
+    mke2fs \
+    mkfs.exfat \
+    mkfs.ntfs \
+    mount.ntfs
 
 # Allow tethering without provisioning app
 PRODUCT_PROPERTY_OVERRIDES += \
