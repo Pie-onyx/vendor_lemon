@@ -1,14 +1,44 @@
+# AOSP packages
+PRODUCT_PACKAGES += \
+    messaging \
+    Terminal
+
+# LineageOS apps
+PRODUCT_PACKAGES += \
+    Eleven \
+    Jelly \
+    Stk \
+    Updater
+
+# OmniROM apps
+PRODUCT_PACKAGES += \
+    OmniStyle \
+    OmniSwitch
+
 # Overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/aosp/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/aosp/overlay/common
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
-# Telephony packages
+# LineageOS tools
 PRODUCT_PACKAGES += \
-    Stk
+    7z \
+    htop \
+    lib7z \
+    unrar \
+    unzip \
+    vim \
+    zip
+
+# Additional tools
+PRODUCT_PACKAGES += \
+    mkshrc_vendor \
+    toybox_vendor \
+    sh_vendor
 
 # Init scripts
 PRODUCT_COPY_FILES += \
