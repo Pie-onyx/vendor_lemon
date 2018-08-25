@@ -27,8 +27,11 @@ PRODUCT_PACKAGES += \
 # LineageOS tools
 PRODUCT_PACKAGES += \
     7z \
+    bash \
+    curl \
     htop \
     lib7z \
+    rsync \
     unrar \
     unzip \
     vim \
