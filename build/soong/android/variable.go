@@ -23,4 +23,5 @@ type ProductVariables struct {
 	Needs_text_relocations  *bool `json:",omitempty"`
 	Target_process_sdk_version_override *string `json:",omitempty"`
 	Target_shim_libs  *string `json:",omitempty"`
+	Target_use_sdclang  *bool `json:",omitempty"`
 }
