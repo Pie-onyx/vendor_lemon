@@ -3,6 +3,10 @@ PRODUCT_PACKAGES += \
     messaging \
     Terminal
 
+# Chromium
+PRODUCT_PACKAGES += \
+    Chromium
+
 # LineageOS apps
 PRODUCT_PACKAGES += \
     Eleven \
@@ -135,5 +139,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SetupWizard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true
-
-$(call inherit-product-if-exists, vendor/aosp/prebuilt/prebuilt.mk)
