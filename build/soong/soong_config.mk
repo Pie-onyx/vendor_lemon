@@ -6,6 +6,7 @@ _contents := $(_contents)    "Lemon":{$(newline)
 $(call add_json_str_omitempty, Additional_gralloc_10_usage_bits, $(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS))
 $(call add_json_bool, Has_legacy_camera_hal1, $(filter true,$(TARGET_HAS_LEGACY_CAMERA_HAL1)))
 $(call add_json_bool, Needs_text_relocations, $(filter true,$(TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS)))
+$(call add_json_str_omitempty, Target_process_sdk_version_override, $(TARGET_PROCESS_SDK_VERSION_OVERRIDE))
 $(call add_json_str, Target_shim_libs, $(TARGET_LD_SHIM_LIBS))
 
 # This causes the build system to strip out the last comma in our nested struct, to keep the JSON valid.
