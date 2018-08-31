@@ -54,6 +54,9 @@ PRODUCT_PACKAGES += \
     PrimaryWarmWhite \
     PrimaryDarkBlue
 
+PRODUCT_PACKAGES += \
+    DocumentsUITheme
+
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
     vendor/aosp/overlay/common
