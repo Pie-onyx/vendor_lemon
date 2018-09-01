@@ -7,6 +7,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Chromium
 
+# Google Packages
+PRODUCT_PACKAGES += \
+    SoundPickerPrebuilt
+
 # LineageOS apps
 PRODUCT_PACKAGES += \
     Eleven \
