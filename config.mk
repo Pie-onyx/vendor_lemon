@@ -56,7 +56,9 @@ PRODUCT_PACKAGES += \
     PrimaryDarkBlue
 
 PRODUCT_PACKAGES += \
-    DocumentsUITheme
+    DocumentsUITheme \
+    DialerTheme \
+    TelecommTheme
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
