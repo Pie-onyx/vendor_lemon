@@ -66,4 +66,8 @@
     <!-- Enable the RingtonePickerActivity in 'com.android.providers.media'. -->
     <bool name="config_defaultRingtonePickerEnabled">false</bool>
 
+    <!-- Round UI stuff -->
+    <!-- default window inset isRound property -->
+    <bool name="config_windowIsRound">true</bool>
+
 </resources>
