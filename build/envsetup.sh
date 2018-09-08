@@ -1,4 +1,4 @@
-function __print_aosp_functions_help() {
+function __print_lemon_functions_help() {
 cat <<EOF
 Additional AOSP functions:
 - breakfast:       Setup the build environment, but only list

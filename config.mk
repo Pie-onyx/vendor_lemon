@@ -59,7 +59,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/aosp/overlay/common
+    vendor/lemon/overlay/common
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
@@ -87,28 +87,28 @@ PRODUCT_PACKAGES += \
 
 # Init scripts
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
+    vendor/lemon/prebuilt/etc/init/init.common.rc:system/etc/init/init.common.rc
 
 # Bootanimation
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/lemon/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
 
 # Fonts
 PRODUCT_COPY_FILES += \
-    vendor/aosp/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
-    vendor/aosp/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
-    vendor/aosp/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
-    vendor/aosp/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
-    vendor/aosp/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
-    vendor/aosp/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+    vendor/lemon/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
+    vendor/lemon/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
+    vendor/lemon/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/lemon/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
+    vendor/lemon/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
+    vendor/lemon/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
 
 # World APN list
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+    vendor/lemon/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
 # mkshrc
 PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/etc/mkshrc:system/etc/mkshrc
+    vendor/lemon/prebuilt/etc/mkshrc:system/etc/mkshrc
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
