@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
 
 # OmniROM apps
 PRODUCT_PACKAGES += \
+    OmniClockOSS \
     OmniJaws \
     OmniStyle \
     OmniSwitch
