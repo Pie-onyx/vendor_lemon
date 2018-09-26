@@ -38,4 +38,6 @@
     <dimen name="qs_paged_tile_layout_padding_bottom">14dp</dimen>
     <!-- 48dp -->
     <dimen name="qs_brightness_slider_height">40dp</dimen>
+    <!-- 0dp -->
+    <dimen name="qs_header_tile_margin_horizontal">13dp</dimen>
 </resources>
