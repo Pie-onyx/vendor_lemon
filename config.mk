@@ -109,6 +109,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lemon/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# Sensitive Phone Numbers list
+PRODUCT_COPY_FILES += \
+    vendor/lemon/prebuilt/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/lemon/prebuilt/etc/permissions/privapp-permissions-elgoog.xml:system/etc/permissions/privapp-permissions-elgoog.xml \
