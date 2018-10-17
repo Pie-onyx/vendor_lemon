@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OmniClockOSS \
     OmniJaws \
+    OmniRecord \
     OmniStyle \
     OmniSwitch
 
