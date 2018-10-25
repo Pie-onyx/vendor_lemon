@@ -1,4 +1,10 @@
-LEMON_TARGET_PACKAGE := $(PRODUCT_OUT)/lemon-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_DEVICE)-YumeMichi.zip
+ifneq ($(TARGET_BUILD_USER_ID),)
+    LEMON_BUILD_ID := $(TARGET_BUILD_USER_ID)
+else
+    LEMON_BUILD_ID := $(USER)
+endif
+
+LEMON_TARGET_PACKAGE := $(PRODUCT_OUT)/lemon-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_DEVICE)-$(LEMON_BUILD_ID).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)

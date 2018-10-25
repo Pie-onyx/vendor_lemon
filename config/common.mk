@@ -1,3 +1,8 @@
+# Lemon version
+LEMON_VERSION := Pie
+
+LEMON_DISPLAY_VERSION := Lemon$(LEMON_VERSION)
+
 # AOSP packages
 PRODUCT_PACKAGES += \
     messaging \
