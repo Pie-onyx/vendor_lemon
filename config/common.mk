@@ -3,6 +3,10 @@ LEMON_VERSION := Pie
 
 LEMON_DISPLAY_VERSION := Lemon$(LEMON_VERSION)
 
+# Ambient Play
+PRODUCT_PACKAGES += \
+    AmbientPlayHistoryProvider
+
 # AOSP packages
 PRODUCT_PACKAGES += \
     messaging \
