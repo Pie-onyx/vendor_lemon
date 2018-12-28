@@ -67,6 +67,7 @@ PRODUCT_PACKAGES += \
     PrimaryDarkBlue
 
 PRODUCT_PACKAGES += \
+    ContactsTheme \
     DocumentsUITheme \
     DialerTheme \
     TelecommTheme
