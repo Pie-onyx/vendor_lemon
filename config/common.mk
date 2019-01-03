@@ -169,3 +169,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # SetupWizard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.rotation_locked=true
+
+# Telephony extension
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
