@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 
 # LineageOS apps
 PRODUCT_PACKAGES += \
+    Exchange \
     Eleven \
     Jelly \
     Stk \
