@@ -3,74 +3,14 @@ LEMON_VERSION := Pie
 
 LEMON_DISPLAY_VERSION := Lemon$(LEMON_VERSION)
 
-# Ambient Play
-PRODUCT_PACKAGES += \
-    AmbientPlayHistoryProvider
-
 # AOSP packages
 PRODUCT_PACKAGES += \
     messaging \
     Terminal
 
-# Chromium
-PRODUCT_PACKAGES += \
-    Chromium
-
-# Google Packages
-PRODUCT_PACKAGES += \
-    SoundPickerPrebuilt
-
 # LineageOS apps
 PRODUCT_PACKAGES += \
-    Exchange2 \
-    Eleven \
-    Jelly \
-    Stk \
-    Updater
-
-# OmniROM apps
-PRODUCT_PACKAGES += \
-    OmniClockOSS \
-    OmniJaws \
-    OmniRecord \
-    OmniStyle \
-    OmniSwitch
-
-# Poor Man Themes
-PRODUCT_PACKAGES += \
-    NotificationsDark \
-    NotificationsLight \
-    NotificationsPrimary
-
-PRODUCT_PACKAGES += \
-    AccentSluttyPink \
-    AccentPixel \
-    AccentGoldenShower \
-    AccentDeepOrange \
-    AccentOmni \
-    AccentWhite \
-    AccentTeal \
-    AccentFromHell \
-    AccentBlueMonday \
-    AccentSmokingGreen \
-    AccentDeadRed \
-    AccentRottenOrange \
-    AccentDeepPurple
-
-PRODUCT_PACKAGES += \
-    PrimaryAlmostBlack \
-    PrimaryBlack \
-    PrimaryOmni \
-    PrimaryWhite \
-    PrimaryColdWhite \
-    PrimaryWarmWhite \
-    PrimaryDarkBlue
-
-PRODUCT_PACKAGES += \
-    ContactsTheme \
-    DocumentsUITheme \
-    DialerTheme \
-    TelecommTheme
+    Eleven
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += \
@@ -108,32 +48,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lemon/prebuilt/media/bootanimation.zip:system/media/bootanimation.zip
 
-# Fonts
-PRODUCT_COPY_FILES += \
-    vendor/lemon/fonts/GoogleSans-Regular.ttf:system/fonts/GoogleSans-Regular.ttf \
-    vendor/lemon/fonts/GoogleSans-Medium.ttf:system/fonts/GoogleSans-Medium.ttf \
-    vendor/lemon/fonts/GoogleSans-MediumItalic.ttf:system/fonts/GoogleSans-MediumItalic.ttf \
-    vendor/lemon/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
-    vendor/lemon/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
-    vendor/lemon/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
-
 # World APN list
 PRODUCT_COPY_FILES += \
     vendor/lemon/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
-
-# Sensitive Phone Numbers list
-PRODUCT_COPY_FILES += \
-    vendor/lemon/prebuilt/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml
-
-# Permissions
-PRODUCT_COPY_FILES += \
-    vendor/lemon/prebuilt/etc/permissions/privapp-permissions-elgoog.xml:system/etc/permissions/privapp-permissions-elgoog.xml \
-    vendor/lemon/prebuilt/etc/permissions/privapp-permissions-lemon.xml:system/etc/permissions/privapp-permissions-lemon.xml \
-    vendor/lemon/prebuilt/etc/permissions/lemon-power-whitelist.xml:system/etc/permissions/lemon-power-whitelist.xml
-
-# mkshrc
-PRODUCT_COPY_FILES += \
-    vendor/lemon/prebuilt/etc/mkshrc:system/etc/mkshrc
 
 # Filesystems tools
 PRODUCT_PACKAGES += \
