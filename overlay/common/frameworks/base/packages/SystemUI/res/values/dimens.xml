@@ -56,4 +56,7 @@
     <!-- ALWAYS set to same as config_dialogCornerRadius -->
     <dimen name="corner_size">8dp</dimen>
     <dimen name="edge_margin">8dp</dimen>
+    <!-- 3dp -->
+    <dimen name="wide_type_icon_start_padding_qs">1dp</dimen>
+    <dimen name="signal_indicator_to_icon_frame_spacing">1dp</dimen>
 </resources>
