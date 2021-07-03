@@ -1,7 +1,7 @@
 ifneq ($(TARGET_BUILD_USER_ID),)
     LEMON_BUILD_ID := $(TARGET_BUILD_USER_ID)
 else
-    LEMON_BUILD_ID := $(USER)
+    LEMON_BUILD_ID := build-bot
 endif
 
 LEMON_TARGET_PACKAGE := $(PRODUCT_OUT)/lemon-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_DEVICE)-$(LEMON_BUILD_ID).zip

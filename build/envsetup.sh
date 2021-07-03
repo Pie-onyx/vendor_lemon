@@ -133,3 +133,7 @@ function cafremote()
     git remote add caf https://source.codeaurora.org/quic/la/$PFX$PROJECT
     echo "Remote 'caf' created"
 }
+
+# Override host metadata to make builds more reproducible and avoid leaking info
+export BUILD_HOSTNAME=android-build
+export BUILD_USERNAME=build-bot
