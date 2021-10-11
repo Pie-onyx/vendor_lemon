@@ -4,7 +4,7 @@ else
     LEMON_BUILD_ID := build-bot
 endif
 
-LEMON_TARGET_PACKAGE := $(PRODUCT_OUT)/lemon-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_DEVICE)-$(LEMON_BUILD_ID).zip
+LEMON_TARGET_PACKAGE := $(PRODUCT_OUT)/aosp-$(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(TARGET_DEVICE)-$(LEMON_BUILD_ID).zip
 
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 
