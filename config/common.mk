@@ -1,5 +1,5 @@
 # Lemon version
-LEMON_VERSION := Pie
+LEMON_VERSION := Sapphire
 
 # AOSP packages
 PRODUCT_PACKAGES += \
